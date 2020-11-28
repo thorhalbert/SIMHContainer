@@ -1,0 +1,4 @@
+docker build -t="simhbase:latest" .
+docker tag simhbase:latest thorhalbert/simhbase:latest
+# docker push feanor:5000/simhbase:latest
+docker push thorhalbert/simhbase:latest
