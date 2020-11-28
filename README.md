@@ -5,12 +5,14 @@ Docker build for latest SIMH.
 
 Python tools:
  - Connect to Remote Console, and provide an gRPC control plane.
-    Base configuration.   Dynamically modify configuration.
-    Disk/tape mounts, paper tape mounts, card reader.
+    - Base configuration.   
+    - Dynamically modify configuration.
+    - Disk/tape mounts, paper tape mounts, card reader.
     
  - Line printer controller.   Connect a FIFO to printers, watch printer spoolers,
  create PDF files automatically.   Handle overprint/underline/bold automatically.
- I'd love old fashioned printer art to work.
+ I'd love old fashioned printer art to work.   Handle mounting different form sizes.
+ Possibily handle overlay of a "green bar" background.
  
  - Printer terminal emulator and frame buffer - make PDF audit -- useful for console.  LA-36/120/180
  
