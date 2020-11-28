@@ -24,3 +24,10 @@ Python tools:
  
  - Plotter controller (though Simh doesn't have controllers for this -- I may add one).
  
+ - Blinkenlight interface -- this will likely be in C since the rpc interface is mostly in C.
+ 
+I am mostly interested in the DEC emulators, and the Altairs.  But I will try to make many of these generic.
+There maybe a generic configuration (a json packet), and eventually there may be mongo backing database, or
+a gRPC interface into a configuration system.
+
+This package is intended to be the handler for a VR emulator system, a graphical simulation, which I intend to be fully functional.
